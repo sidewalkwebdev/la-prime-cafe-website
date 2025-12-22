@@ -40,7 +40,9 @@ Stage & Commit:
 Push Branch to GitHub:
 ┌───────────────────────────────┐
 │ 6. Push your branch           │
-│ git push -u origin my-feature │
+│ git push -u origin my-feature |
+| if you ever forget your branch|
+| use "git status" to check     │
 └───────────────────────────────┘
                │
                ▼
