@@ -232,6 +232,18 @@ body {
   }
 }
 
+/* --- MENU SECTION --- */
+.menu-title {
+  font-family: "Anton", sans-serif;
+  font-size: 3rem;
+  color: var(--prime-green);
+}
+
+.menu-icon {
+  font-size: 2rem;
+  color: var(--prime-brown);
+}
+
 /* --- FOOTER --- */
 footer {
   background-color: #f4f4f4;
@@ -259,6 +271,15 @@ footer i {
   color: var(--prime-brown);
   margin-right: 10px;
   font-size: 1.2rem;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer-link:hover {
+  color: var(--prime-brown);
 }
 
 /* Map Container */
