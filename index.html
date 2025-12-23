@@ -31,6 +31,7 @@
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarContent"
+          aria-label="Toggle navigation menu"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -49,14 +50,14 @@
             <li class="nav-item">
               <a class="nav-link" href="#contact">Contact</a>
             </li>
-            <button
-              class="btn"
-              id="sign-up-button"
-              onclick="window.location.href='menu.html'"
-            >
-              ORDER NOW
-            </button>
           </ul>
+          <button
+            class="btn"
+            id="sign-up-button"
+            onclick="window.location.href='menu.html'"
+          >
+            ORDER NOW
+          </button>
         </div>
       </div>
     </nav>
@@ -85,14 +86,7 @@
     </header>
     <section class="services-section py-5" id="menu">
       <div class="container">
-        <h2
-          class="text-center mb-2"
-          style="
-            font-family: 'Anton', sans-serif;
-            font-size: 3rem;
-            color: var(--prime-green);
-          "
-        >
+        <h2 class="text-center mb-2 menu-title">
           Our Menu
         </h2>
         <p class="text-center mb-5 text-muted">
@@ -150,10 +144,7 @@
           <div class="col-md-6 col-lg-3">
             <div class="menu-card">
               <div class="text-center mb-3">
-                <i
-                  class="fi-xnsuxl-coffee-cup"
-                  style="font-size: 2rem; color: var(--prime-brown)"
-                ></i>
+                <i class="fi-xnsuxl-coffee-cup menu-icon"></i>
               </div>
               <h3 class="menu-category-title">Hot Coffee</h3>
               <ul class="menu-list">
@@ -192,10 +183,7 @@
           <div class="col-md-6 col-lg-3">
             <div class="menu-card">
               <div class="text-center mb-3">
-                <i
-                  class="fi-cnsuxl-snowflake-solid"
-                  style="font-size: 2rem; color: var(--prime-brown)"
-                ></i>
+                <i class="fi-cnsuxl-snowflake-solid menu-icon"></i>
               </div>
               <h3 class="menu-category-title">Cold Brews</h3>
               <ul class="menu-list">
@@ -235,10 +223,7 @@
           <div class="col-md-6 col-lg-3">
             <div class="menu-card">
               <div class="text-center mb-3">
-                <i
-                  class="fi-cnsuxl-croissant"
-                  style="font-size: 2rem; color: var(--prime-brown)"
-                ></i>
+                <i class="fi-cnsuxl-croissant menu-icon"></i>
               </div>
               <h3 class="menu-category-title">Bakery</h3>
               <ul class="menu-list">
@@ -277,10 +262,7 @@
           <div class="col-md-6 col-lg-3">
             <div class="menu-card">
               <div class="text-center mb-3">
-                <i
-                  class="fi-xnsuxl-bread-slice"
-                  style="font-size: 2rem; color: var(--prime-brown)"
-                ></i>
+                <i class="fi-xnsuxl-bread-slice menu-icon"></i>
               </div>
               <h3 class="menu-category-title">Breakfast</h3>
               <ul class="menu-list">
@@ -352,10 +334,7 @@
             <iframe
               class="map-container"
               src="https://maps.google.com/maps?q=4626%20W%20Adams%20Blvd%2C%20Los%20Angeles%2C%20CA%2090016&t=&z=15&ie=UTF8&iwloc=&output=embed"
-              frameborder="0"
-              scrolling="no"
-              marginheight="0"
-              marginwidth="0"
+              title="La Prime Caffe location map"
             >
             </iframe>
           </div>
@@ -364,32 +343,22 @@
             <h4>Quick Links</h4>
             <ul>
               <li>
-                <a
-                  href="about.html"
-                  style="text-decoration: none; color: inherit"
-                  >About Us</a
-                >
+                <a href="about.html" class="footer-link">About Us</a>
               </li>
               <li>
-                <a
-                  href="menu.html"
-                  style="text-decoration: none; color: inherit"
-                  >Full Menu</a
-                >
+                <a href="menu.html" class="footer-link">Full Menu</a>
               </li>
               <li>
-                <a href="#" style="text-decoration: none; color: inherit"
-                  >Privacy Policy</a
-                >
+                <a href="#" class="footer-link">Privacy Policy</a>
               </li>
             </ul>
 
             <div class="mt-4">
               <h4>Follow Us</h4>
               <div class="d-flex gap-3">
-                <a href="#"><i class="fi-snsuxl-instagram"></i></a>
-                <a href="#"><i class="fi-snsuxl-facebook"></i></a>
-                <a href="#"><i class="fi-snsuxl-tiktok-solid"></i></a>
+                <a href="#" aria-label="Follow us on Instagram"><i class="fi-snsuxl-instagram"></i></a>
+                <a href="#" aria-label="Follow us on Facebook"><i class="fi-snsuxl-facebook"></i></a>
+                <a href="#" aria-label="Follow us on TikTok"><i class="fi-snsuxl-tiktok-solid"></i></a>
               </div>
             </div>
           </div>
