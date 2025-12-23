@@ -46,6 +46,30 @@ body {
   padding: 8px 25px;
   border-radius: 4px;
   font-weight: bold;
+
+}
+#header-view-menu{
+  background-color: var(--prime-brown);
+  color: white;
+  border: none;
+  padding: 8px 25px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+#header-view-menu:hover{
+  background-color: var(--prime-green);
+  transition: .7s;
+}
+#header-find-us{
+  border: none;
+  padding: 8px 25px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+#header-find-us:hover{
+  background-color: var(--prime-green);
+  transition: .7s;
+  color: white;
 }
 #sign-up-button:hover {
   background-color: var(--prime-green);
