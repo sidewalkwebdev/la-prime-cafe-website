@@ -314,3 +314,16 @@ footer i {
   border-radius: 8px;
   margin-top: 10px;
 }
+.menu-hero {
+  position: relative;
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("assets/menu-hero-bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
