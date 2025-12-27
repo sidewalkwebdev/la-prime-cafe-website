@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>La Prime Caffe</title>
+    <title>Order Now - La Prime Caffe</title>
     <link rel="stylesheet" href="styles.css" />
 
     <script defer src="https://friconix.com/cdn/friconix.js"></script>
@@ -45,7 +45,7 @@
               <a class="nav-link" href="menu.html">Menu</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="aboutus.html">About Us</a>
+              <a class="nav-link" href="about.html">About Us</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#contact">Contact</a>
@@ -54,37 +54,66 @@
           <button
             class="btn"
             id="sign-up-button"
-            onclick="window.location.href='odernow.html'"
+            onclick="window.location.href='menu.html'"
           >
-            ORDER NOW
+            VIEW MENU
           </button>
         </div>
       </div>
     </nav>
-    <header class="hero">
-      <div class="container text-center">
-        <h1 id="header-text">Start Your Day Right.</h1>
-        <p class="header-p">
-          Fresh brew, delicious pastries, and the best vibes in Los Angeles.
-        </p>
 
-        <div class="d-flex justify-content-center gap-3 mt-4">
-          <button
-            class="btn btn-primary btn-lg" id="header-view-menu"
-            onclick="window.location.href='menu.html'"
-          >
-            View Menu
-          </button>
-          <button
-            class="btn btn-light btn-lg" id="header-find-us"
-            onclick="window.location.href='#contact'"
-          >
-            Find Us
-          </button>
-        </div>
+    <header class="order-hero">
+      <div class="container text-center">
+        <h1 id="header-text">How would you like to order?</h1>
+        <p class="header-p">
+          Choose pickup for the freshest experience, or delivery to enjoy at home.
+        </p>
       </div>
     </header>
-    
+
+    <section class="py-5 bg-light">
+      <div class="container">
+        <div class="row g-4 justify-content-center">
+          
+          <div class="col-md-5 col-lg-4">
+            <div class="order-card text-center">
+              <div class="icon-wrapper">
+                <i class="fi-xnsuxl-smartphone-solid"></i>
+              </div>
+              <h3>Call for Pickup</h3>
+              <p>Call us directly to place your order. Your food will be ready in 15-20 minutes.</p>
+              <a href="tel:3237950107" class="btn btn-primary w-100">
+                <i class="fi-xnsrxl-phone-solid me-2"></i> (323) 795-0107
+              </a>
+              <small class="d-block mt-2 text-muted">No service fees</small>
+            </div>
+          </div>
+
+          <div class="col-md-5 col-lg-4">
+            <div class="order-card text-center">
+              <div class="icon-wrapper">
+                <i class="fi-xnsuxl-bicycle-solid"></i>
+              </div>
+              <h3>Order Delivery</h3>
+              <p>Get La Prime Caffe delivered straight to your door via our partners.</p>
+              
+              <div class="d-grid gap-2">
+                <a href="#" target="_blank" class="btn btn-outline-dark app-btn">
+                  Order on <strong>UberEats</strong>
+                </a>
+                <a href="#" target="_blank" class="btn btn-outline-danger app-btn">
+                  Order on <strong>DoorDash</strong>
+                </a>
+                <a href="#" target="_blank" class="btn btn-outline-warning app-btn text-dark">
+                  Order on <strong>GrubHub</strong>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
 
     <footer id="contact">
       <div class="container">
@@ -114,42 +143,38 @@
           <div class="col-md-4">
             <h4>Find Us</h4>
             <p>Located in the heart of West Adams.</p>
-            <iframe
-              class="map-container"
-              src="https://maps.google.com/maps?q=4626%20W%20Adams%20Blvd%2C%20Los%20Angeles%2C%20CA%2090016&t=&z=15&ie=UTF8&iwloc=&output=embed"
-              title="La Prime Caffe location map"
-            >
+            <iframe 
+                class="map-container"
+                src="https://maps.google.com/maps?q=4626%20W%20Adams%20Blvd%2C%20Los%20Angeles%2C%20CA%2090016&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+                width="100%" 
+                height="200" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                title="La Prime Caffe Location">
             </iframe>
           </div>
 
           <div class="col-md-4">
             <h4>Quick Links</h4>
             <ul>
-              <li>
-                <a href="about.html" class="footer-link">About Us</a>
-              </li>
-              <li>
-                <a href="menu.html" class="footer-link">Full Menu</a>
-              </li>
-              <li>
-                <a href="#" class="footer-link">Privacy Policy</a>
-              </li>
+              <li><a href="about.html" class="footer-link">About Us</a></li>
+              <li><a href="menu.html" class="footer-link">Full Menu</a></li>
+              <li><a href="#" class="footer-link">Privacy Policy</a></li>
             </ul>
-
             <div class="mt-4">
               <h4>Follow Us</h4>
               <div class="d-flex gap-3">
-                <a href="#" aria-label="Follow us on Instagram"><i class="fi-snsuxl-instagram"></i></a>
-                <a href="#" aria-label="Follow us on Facebook"><i class="fi-snsuxl-facebook"></i></a>
-                <a href="#" aria-label="Follow us on TikTok"><i class="fi-snsuxl-tiktok-solid"></i></a>
+                <a href="#"><i class="fi-snsuxl-instagram"></i></a>
+                <a href="#"><i class="fi-snsuxl-facebook"></i></a>
+                <a href="#"><i class="fi-snsuxl-tiktok-solid"></i></a>
               </div>
             </div>
           </div>
         </div>
       </div>
-
       <div class="text-center mt-5">
-        <p>&copy; 2025 La Prime Caffe. All rights reserved.</p>
+        <p>© 2025 La Prime Caffe. All rights reserved.</p>
       </div>
     </footer>
 
