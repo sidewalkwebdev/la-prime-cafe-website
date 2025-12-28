@@ -423,6 +423,50 @@ footer i {
   font-style: italic;
   max-width: 85%;
 }
+/* --- FOOTER CONTACT LINKS --- */
+.contact-link {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact-link:hover {
+  color: var(--prime-brown);
+  text-decoration: underline;
+}
+
+/* --- MAP BUTTONS --- */
+.map-buttons {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.btn-map {
+  display: inline-block;
+  padding: 6px 12px;
+  font-size: 0.75rem; /* Smaller text for compact buttons */
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: opacity 0.3s ease;
+  color: white !important; /* Forces text to stay white */
+}
+
+.btn-map:hover {
+  opacity: 0.8;
+  color: white;
+}
+
+/* Apple Maps - Black */
+.apple-map {
+  background-color: #000;
+}
+
+/* Google Maps - Blue */
+.google-map {
+  background-color: #4285F4;
+}
 /* --- ORDER PAGE STYLES --- */
 
 .order-hero {
