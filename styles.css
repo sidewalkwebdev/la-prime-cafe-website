@@ -102,7 +102,7 @@ body {
   color: white;
   text-align: center;
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("https://images.unsplash.com/photo-1509042239860-f550ce710b93?q=80&w=2574&auto=format&fit=crop");
+    url(assets/header-swan.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -340,7 +340,7 @@ footer i {
   color: white;
   text-align: center;
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("assets/menu-hero-bg.jpg");
+    url(assets/menu-header.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -500,7 +500,7 @@ footer i {
   text-align: center;
   /* Interior shot for background */
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("https://images.unsplash.com/photo-1559925393-8be0ec4767c8?q=80&w=2000&auto=format&fit=crop");
+    url(assets/about-us-header.jpg);
   background-size: cover;
   background-position: center;
 }
