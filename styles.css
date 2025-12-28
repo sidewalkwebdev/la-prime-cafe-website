@@ -75,6 +75,23 @@ body {
   background-color: var(--prime-green);
 }
 
+/* Mobile navbar button centering */
+@media (max-width: 991px) {
+  .navbar-collapse {
+    text-align: center;
+  }
+  
+  .navbar-nav {
+    align-items: center !important;
+  }
+  
+  #sign-up-button {
+    margin-top: 10px;
+    width: auto;
+    display: inline-block;
+  }
+}
+
 /* --- HERO SECTION --- */
 .hero {
   position: relative;
