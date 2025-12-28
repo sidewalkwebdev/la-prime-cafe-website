@@ -725,3 +725,45 @@ html {
   scroll-behavior: smooth;
   scroll-padding-top: 150px; /* Offset for sticky navbars */
 }
+.privacy-section {
+  padding: 80px 0;
+  background-color: #fff;
+}
+
+.privacy-title {
+  font-family: "Anton", sans-serif;
+  color: var(--prime-brown);
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.privacy-content {
+  font-family: 'Montserrat', sans-serif;
+  color: #333;
+  line-height: 1.8;
+}
+
+.privacy-content h3 {
+  font-family: "Anton", sans-serif;
+  color: var(--prime-green);
+  font-size: 1.5rem;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.privacy-content ul {
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+
+.privacy-content li {
+  margin-bottom: 10px;
+}
+
+.privacy-content address {
+  font-style: normal;
+  background: #f9f9f9;
+  padding: 20px;
+  border-left: 4px solid var(--prime-brown);
+  margin-top: 20px;
+}
