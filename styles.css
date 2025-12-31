@@ -831,3 +831,49 @@ html {
 .upgrade-item {
   font-size: 0.85rem;
 }
+/* 1. Card Container Styling */
+.order-card {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;       /* Rounded corners */
+    padding: 2rem;             /* Spacing inside the card */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); /* Soft shadow */
+    transition: transform 0.2s ease;
+}
+
+.order-card:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+}
+
+/* 2. Icon Styling */
+.icon-wrapper {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+/* 3. Call Button (Blue) */
+/* Targets the class .btn-outline-primary inside the order card */
+.order-card .btn-outline-primary {
+    color: #0d6efd;           /* Blue Text */
+    border-color: #0d6efd;    /* Blue Border */
+    background-color: transparent;
+}
+
+.order-card .btn-outline-primary:hover {
+    background-color: #0d6efd; /* Blue Background on hover */
+    color: #ffffff;            /* White Text on hover */
+}
+
+/* 4. Toast Button (Green) */
+/* Targets the class .btn-primary inside the order card */
+.order-card .btn-primary {
+    background-color: #198754; /* Green Background */
+    border-color: #198754;     /* Green Border */
+    color: #ffffff;
+}
+
+.order-card .btn-primary:hover {
+    background-color: #157347; /* Darker Green on hover */
+    border-color: #146c43;
+}
