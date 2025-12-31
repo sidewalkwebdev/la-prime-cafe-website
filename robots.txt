@@ -1,0 +1,10 @@
+# robots.txt for La Prime Caffe website
+
+User-agent: *
+Allow: /
+Disallow: /ordernow.html
+Disallow: /privacy.html
+Disallow: /terms.html
+
+# Sitemap location
+Sitemap: https://www.laprimecaffe.com/sitemap.xml
